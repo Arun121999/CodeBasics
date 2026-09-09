@@ -75,3 +75,49 @@
 #     list_b.append(num ** 3)
 
 # print(list_b)
+
+
+# here we are performing the string slicing using the index values
+# name = "Data Engineer"
+# print(name[0])       # D  (first character)
+# print(name[0:4])     # Data  (from index 0 up to, not including, 4)
+# print(name[5:])      # Engineer  (from index 5 to the end)
+# print(name[-1])      # r  (negative index counts from the end)
+
+
+# here we are performing the string to array conversion
+# sentence = "Arun, 25, 162-A, Colispaces, PKL"
+# parts = sentence.split(",") #String to array 
+# print(parts) # ['Arun', '25', '162-A', 'Colispaces', 'PKL']
+# print(parts[0]) # ['Arun']
+# print(parts[1]) # ['25']
+# print(parts[2]) # //
+# print(parts[3]) # //
+# print(parts[4]) # //
+
+# here we are performing the array to string conversion
+# words = ["Data Engineer", "Data Scientist", "Data Analyst"]
+# wordsArray = " | ".join(words)
+# print(wordsArray) # Data Engineer | Data Scientist | Data Analyst
+
+# here we are performing the extra side space removal from the string
+# messy = " Arun "
+# withoutspaces = messy.strip()
+# print(len(withoutspaces)) #4 (Without Spaces)
+# print(len(messy)) #6 (With Spaces)
+
+#here we are performing the string replace and float
+# integer_value = "1,250"
+# replaced_string = integer_value.replace(",","")
+# print(replaced_string) #1250
+# print(float(replaced_string)) #1250.0
+
+#here we are performing string to upper and lower case
+# job_domain = "Data Engineer"
+# print(job_domain.upper())
+# print(job_domain.lower())
+
+#here we are performing the variable value in string
+# name = "Arun"
+# age = 25
+# print(f"My name is {name} and I am {age} years old")
