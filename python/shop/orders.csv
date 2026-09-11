@@ -1,0 +1,11 @@
+order_id,customer,item,price,quantity,city
+101,Arun,Laptop,50000,1,Mohali
+102,Priya,Mouse,1500,2,Delhi
+103,Rohit,Keyboard,2000,1,Mumbai
+104,Arun,Monitor,12000,1,Mohali
+105,Sahil,Laptop,48000,1,Pune
+106,Priya,Headphones,3000,3,Delhi
+107,Rohit,Mouse,1500,1,Mumbai
+108,Neha,Keyboard,2200,2,Chandigarh
+109,Arun,Headphones,2800,1,Mohali
+110,Sahil,Monitor,11500,2,Pune

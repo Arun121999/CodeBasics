@@ -1,0 +1,41 @@
+{
+    "store": "Arun's Electronics",
+    "city": "Mohali",
+    "orders": [
+        {
+            "order_id": 101,
+            "customer": "Arun",
+            "items": [
+                {"name": "Laptop", "price": 50000, "quantity": 1}
+            ],
+            "city": "Mohali"
+        },
+        {
+            "order_id": 102,
+            "customer": "Priya",
+            "items": [
+                {"name": "Mouse", "price": 1500, "quantity": 2},
+                {"name": "Headphones", "price": 3000, "quantity": 3}
+            ],
+            "city": "Delhi"
+        },
+        {
+            "order_id": 103,
+            "customer": "Rohit",
+            "items": [
+                {"name": "Keyboard", "price": 2000, "quantity": 1},
+                {"name": "Mouse", "price": 1500, "quantity": 1}
+            ],
+            "city": "Mumbai"
+        },
+        {
+            "order_id": 104,
+            "customer": "Sahil",
+            "items": [
+                {"name": "Laptop", "price": 48000, "quantity": 1},
+                {"name": "Monitor", "price": 11500, "quantity": 2}
+            ],
+            "city": "Pune"
+        }
+    ]
+}
