@@ -1,0 +1,43 @@
+1. Functions (deeper) — (you've done this — default args, *args, **kwargs, lambda, multiple returns)
+
+2. Strings in depth
+.split(), .join(), .strip(), .replace(), f-strings — needed before real data cleaning
+
+3. Lists and tuples in depth
+Slicing, .sort(), sorted(), when to use a tuple vs a list
+
+4. Dictionaries in depth
+Nested dictionaries, .get(), .keys(), .values()
+
+5. Sets
+.union(), .intersection() — useful for comparing data later
+
+6. Session 4 → OOP (Section 4)
+Class, object, method, self, constructor — the Order class we just did
+
+7. Session 4 → Modules (Sections 3 & 5)
+Importing a function across files, then turning a folder into a package with __init__.py, plus requirements.txt
+
+8. Session 4 → Config-Driven Design (Section 6)
+Move hardcoded settings into a config.py and import from there
+
+9. File Handling (core Python)
+Reading/writing .txt, .csv, .json with open() — this connects directly into the next step
+
+10. Session 4 → Logging and Exceptions (Section 7)
+logging.info/warning/error, and try/except/finally for graceful failure
+
+11. Session 4 → Retries (Section 8)
+The payment API retry loop — try, wait, try again
+
+12. Session 4 → Environments and Secrets (Section 9)
+Virtual environments (venv), .env files, never hardcoding secrets
+
+13. Dates and times (core Python)
+The datetime module — timestamps, filtering by date, common in every pipeline
+
+14. List/dict comprehensions (deeper)
+You've seen basic ones; now with conditions — [x for x in list if condition]
+
+15. Working with external libraries
+pip install, understanding requirements.txt properly — this is the bridge to pandas, which comes right after this entire path is done

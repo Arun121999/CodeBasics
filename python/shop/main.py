@@ -1,5 +1,5 @@
-from order import Order
-from pricing import calculate_gst
+from shop.order import Order
+from shop.pricing import calculate_gst
 
 o = Order(101, "Arun")
 o.add_item("Laptop", 50000)
