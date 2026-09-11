@@ -14,14 +14,16 @@ with open("shop/orders.json", "r") as file:
 #     for item in order['items']:
 #         print(item['name'], item['price'], item['quantity'])
 
-revenue = {}
-for order in data['orders']:
-    customer = order['customer']
-    for item in order['items']:
-        line_total = item['price'] * item['quantity']
-        if(customer in revenue):
-            revenue[customer] += line_total
-        else:
-            revenue[customer] = line_total
 
-print(revenue)
+# Customer wise total
+# revenue = {}
+# for order in data['orders']:
+#     customer = order['customer']
+#     for item in order['items']:
+#         line_total = item['price'] * item['quantity']
+#         if(customer in revenue):
+#             revenue[customer] += line_total
+#         else:
+#             revenue[customer] = line_total
+
+# print(revenue)
